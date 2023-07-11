@@ -1,12 +1,12 @@
 // Pokedex component
 import Pokecard from "../pokecard"
-
+import './index.css'
 
 function Pokedex() {
     return(
         <div>
             <h1>Pokédex</h1>
-            <div>
+            <div class = "pokedex">
                 <Pokecard id = {1}/>
                 <Pokecard id = {2}/>
                 <Pokecard id = {3}/>
